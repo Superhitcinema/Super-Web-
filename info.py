@@ -44,7 +44,7 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001837694049') # request chan
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Super4crazy')
 
 # index movie Notification & update channel 
