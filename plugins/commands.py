@@ -210,7 +210,7 @@ async def start(client, message):
         
     if len(message.command) == 2 and message.command[1] in ["premium"]:
         buttons = [[
-                    InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(6646028262))
+                    InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(852190589))
                   ],[
                     InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                   ]]
@@ -367,7 +367,7 @@ async def start(client, message):
             ]]
             await message.reply_photo(
                 photo="https://graph.org/file/6928de1539e2e80e47fb8.jpg",
-                caption=f"<b>Hey {message.from_user.mention},\n\n𝑌𝑜𝑢 𝐴𝑟𝑒 𝑆𝑢𝑐𝑐𝑒𝑠𝑠𝑓𝑢𝑙 𝑉𝑒𝑟𝑖𝑓𝑖𝑒𝑑 ! 𝑁𝑜𝑤 𝑌𝑜𝑢 𝐻𝑎𝑣𝑒 𝑈𝑛𝑙𝑖𝑚𝑖𝑡𝑒𝑑 𝐴𝑐𝑐𝑒𝑠𝑠 𝐹𝑜𝑟 24 𝐻𝑜𝑢𝑟𝑠.\n\n<blockquote>आप सफलतापूर्वक सत्यापित हो गए हैं अब आप 24 घंटे तक 𝐷𝑖𝑟𝑒𝑐𝑡 𝑀𝑜𝑣𝑖𝑒 की 𝐹𝑖𝑙𝑒𝑠 प्राप्त कर सकते हैं।</blockquote></b>",
+                caption=f"<b>Hey {message.from_user.mention},\n\n𝑌𝑜𝑢 𝐴𝑟𝑒 𝑆𝑢𝑐𝑐𝑒𝑠𝑠𝑓𝑢𝑙 𝑉𝑒𝑟𝑖𝑓𝑖𝑒𝑑 ! 𝑁𝑜𝑤 𝑌𝑜𝑢 𝐻𝑎𝑣𝑒 𝑈𝑛𝑙𝑖𝑚𝑖𝑡𝑒𝑑 𝐴𝑐𝑐𝑒𝑠𝑠 𝐹𝑜𝑟 03 𝐻𝑜𝑢𝑟𝑠.\n\n<blockquote>आप सफलतापूर्वक सत्यापित हो गए हैं अब आप 03 घंटे तक 𝐷𝑖𝑟𝑒𝑐𝑡 𝑀𝑜𝑣𝑖𝑒 की 𝐹𝑖𝑙𝑒𝑠 प्राप्त कर सकते हैं।</blockquote></b>",
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             await verify_user(client, userid, token) 
@@ -481,7 +481,7 @@ async def start(client, message):
                        InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
                    ]]
                    l = await message.reply_text(
-                   text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+                   text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 03 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 03 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
                    protect_content=False,
                    reply_markup=InlineKeyboardMarkup(btn)
                    )
@@ -564,7 +564,7 @@ async def start(client, message):
                         InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
                    ]]
                    l = await message.reply_text(
-                       text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो। <blockquote>\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नही है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+                       text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 03 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 03 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो। <blockquote>\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नही है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
                        protect_content=False,
                        reply_markup=InlineKeyboardMarkup(btn)
                    )
@@ -630,7 +630,7 @@ async def start(client, message):
               InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
            ]]
            l = await message.reply_text(
-            text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 24 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote> \n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+            text="<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 03 HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप 03 घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote> \n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
             protect_content=False,
             reply_markup=InlineKeyboardMarkup(btn)
            )
@@ -1325,7 +1325,7 @@ async def settutorial(bot, message):
     else:
         pass
     if len(message.command) == 1:
-        return await message.reply("<b>ɢɪᴠᴇ ᴍᴇ ᴀ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.\n\nᴜꜱᴀɢᴇ : /set_tutorial <code>https://t.me/HowToOpenHP</code></b>")
+        return await message.reply("<b>ɢɪᴠᴇ ᴍᴇ ᴀ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.\n\nᴜꜱᴀɢᴇ : /set_tutorial <code>https://t.me/+d0lcBktNrZY0NDhl</code></b>")
     elif len(message.command) == 2:
         reply = await message.reply_text("<b>ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ...</b>")
         tutorial = message.command[1]
@@ -1333,7 +1333,7 @@ async def settutorial(bot, message):
         await save_group_settings(grpid, 'is_tutorial', True)
         await reply.edit_text(f"<b>✅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴀᴅᴅᴇᴅ ᴛᴜᴛᴏʀɪᴀʟ\n\nʏᴏᴜʀ ɢʀᴏᴜᴘ : {title}\n\nʏᴏᴜʀ ᴛᴜᴛᴏʀɪᴀʟ : <code>{tutorial}</code></b>")
     else:
-        return await message.reply("<b>ʏᴏᴜ ᴇɴᴛᴇʀᴇᴅ ɪɴᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀᴛ !\nᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀᴛ : /set_tutorial <code>https://t.me/HowToOpenHP</code></b>")
+        return await message.reply("<b>ʏᴏᴜ ᴇɴᴛᴇʀᴇᴅ ɪɴᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀᴛ !\nᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀᴛ : /set_tutorial <code>https://t.me/+d0lcBktNrZY0NDhl</code></b>")
 
 @Client.on_message(filters.command("remove_tutorial"))
 async def removetutorial(bot, message):
